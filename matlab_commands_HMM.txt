@@ -1,0 +1,30 @@
+
+
+%%% STEPS FOR RUNNING THE HIDDEN MARKOV MODEL ANALYSIS %%%%
+ %%%%%%% Using HMM states twice %%%%
+
+% STEP 1: run HMM_data.m
+% STEP 2: run PopRate_and_Fluctuations_lk.m
+% STEP 3: run HiddenMarkovModels_all_train.m
+% STEP 4: Sometimes the epochs need to be checked by eyes?
+% STEP 5: run UPandDownEpochs_Final.m
+% STEP 6: run Hidden MarkovModels_UPonly.m
+% STEP 7: run UP1_UP2_epochs.m
+
+%%%%%%%%%
+
+%%%%%%%% Using HMM 3 states once %%%%%
+
+
+% STEP 1: run HMM_data.m
+% STEP 2: run PopRate_and_Fluctuations_lk.m
+% STEP 3: run HiddenMarkovModels_all_train_Ones_3States.m
+% STEP 4: Sometimes the epochs need to be checked by eyes?
+% STEP 5: run Down_UP1_UP2_epochs_all_train.m
+
+%%%%%%% Using binary HMM to detect UP and Down %%%%%
+
+% STEP 1: run HMM_data.m
+% STEP 2: run PopRate_and_Fluctuations_lk.m
+% STEP 3: run HiddenMarkovModels_all_train_EditedVersion1.m
+% STEP 4: run UPandDownEpochsWithAllOnes.m
